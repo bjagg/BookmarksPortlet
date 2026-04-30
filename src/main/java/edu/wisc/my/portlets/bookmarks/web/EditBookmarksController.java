@@ -37,7 +37,7 @@ import edu.wisc.my.portlets.bookmarks.domain.validation.CollectionValidator;
 import edu.wisc.my.portlets.bookmarks.domain.validation.FolderValidator;
 import edu.wisc.my.portlets.bookmarks.web.support.BookmarkSetRequestResolver;
 import edu.wisc.my.portlets.bookmarks.web.support.ViewConstants;
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
