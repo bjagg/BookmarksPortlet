@@ -24,7 +24,7 @@
   <parent>
     <groupId>org.jasig.portlet</groupId>
     <artifactId>uportal-portlet-parent</artifactId>
-    <version>48</version>
+    <version>49</version>
   </parent>
 
   <modelVersion>4.0.0</modelVersion>
@@ -277,28 +277,6 @@
             <version>4.0.3</version>
           </dependency>
         </dependencies>
-      </plugin>
-      <plugin>
-        <groupId>com.mycila.maven-license-plugin</groupId>
-        <artifactId>maven-license-plugin</artifactId>
-        <configuration>
-          <basedir>${basedir}</basedir>
-          <header>${jasig-short-license-url}</header>
-
-          <aggregate>true</aggregate>
-          <strictCheck>true</strictCheck>
-          <excludes>
-            <exclude>LICENSE</exclude>
-            <exclude>NOTICE</exclude>
-            <exclude>.idea/**</exclude> <!-- Exclude intelliJ files -->
-            <exclude>overlays/**</exclude> <!-- Exclude intelliJ files -->
-            <exclude>.gitignore</exclude>
-          </excludes>
-          <mapping>
-            <crn>XML_STYLE</crn>
-            <tag>DYNASCRIPT_STYLE</tag>
-          </mapping>
-        </configuration>
       </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
